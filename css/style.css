@@ -1,0 +1,83 @@
+body {
+	background: url(../img/background.png) no-repeat;
+	background-size: cover;
+	padding-top: 5%;
+}
+
+h3 {
+	color: #fff;
+	font-size: 22px;
+	font-weight: normal;
+	text-shadow: 0px 2px rgba(0,0,0,.2);
+}
+
+.top-well {
+	background: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #cccccc;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.top-well img {
+	height: 191px;
+	width: auto;
+}
+
+.mid-well {
+	background: #fff;
+}
+
+.mid-well h2 {
+	color: #535353;
+	font-weight: lighter;
+	font-size: 28px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.mid-well p {
+	color: #639f15;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+}
+
+.mid-right-well {
+	padding-top: 15px;
+}
+
+.mid-right-well label {
+	font-size: 14px;
+	color: #ccc;
+	font-weight: bold;
+}
+
+.bottom-well {
+	background: #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.bottom-well button {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 1px 2px #558912;
+	padding: 17px 70px;
+	background: #639f15;
+	border: 1px solid #598d14;
+	border-radius: 5px;
+}
+
+.bottom-well button img {
+	margin-top: -5px;
+}

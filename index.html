@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="jquery.stepper.css"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Assorted Vegetables (1lb)</h3>
+        <div class="col-md-12 top-well"><img src="img/vegetables.png"></div>
+        <div class="col-md-12 mid-well">
+          <div class="col-md-6"><h2>$1.00</h2></div>
+          <div class="col-md-6 mid-right-well">
+            <label>QTY:</label>
+            <input value="0"type="text" size="2" id="stepper-vegetables"/>
+          </div>
+        </div>
+        <div class="col-md-12 bottom-well">
+          <button><img src="img/basket.png"> Add to Cart</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>Raspberries (1lb)</h3>
+        <div class="col-md-12 top-well"><img src="img/raspberries.png"></div>
+        <div class="col-md-12 mid-well">
+          <div class="col-md-6">
+            <h2>$2.50</h2>
+            <p>($5.00 TOTAL)</p>
+          </div>
+          <div class="col-md-6 mid-right-well">
+            <label>QTY:</label>
+            <input value="2" type="text" size="2" id="stepper-raspberries"/>
+          </div>
+        </div>
+        <div class="col-md-12 bottom-well">
+          <button><img src="img/basket.png"> Add to Cart</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h3>1 Fresh Kiwi</h3>
+        <div class="col-md-12 top-well"><img src="img/kiwi.png"></div>
+        <div class="col-md-12 mid-well">
+          <div class="col-md-6">
+            <h2>$.30</h2>
+            <p>($2.40 TOTAL)</p>
+          </div>
+          <div class="col-md-6 mid-right-well">
+            <label>QTY:</label>
+            <input value="8"type="text" size="2" id="stepper-kiwi"/>
+          </div>
+        </div>
+        <div class="col-md-12 bottom-well">
+          <button><img src="img/basket.png"> Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="jquery.stepper.js"></script>
+
+  <script>
+    $('#stepper-vegetables').stepper({ limit: [0,] });
+    $('#stepper-raspberries').stepper({ limit: [0,] });
+    $('#stepper-kiwi').stepper({ limit: [0,] });
+  </script>
+</body>
+</html>
